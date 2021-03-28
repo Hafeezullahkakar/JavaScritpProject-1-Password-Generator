@@ -17,9 +17,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     border-radius: 7px; 
     box-shadow: 0 4px 1px 0 rgba(15, 11, 11, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 30px;
+    transition: 0.1s;
   }
+  
   .wrapper p{
       text-shadow: 2px 2px 3px black;
+  }
+  .box :hover{
+      transform: scale(1.01);
   }
   
 #pass{
